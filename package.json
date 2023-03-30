@@ -1,0 +1,14 @@
+{
+  "name": "wxy-cli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "王珣亦",
+  "license": "ISC"
+}
