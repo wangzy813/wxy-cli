@@ -21,7 +21,6 @@ program.parse(process.argv);
 let templateName = program.args[1];
 let projectName = program.args[2];
 
-console.log(templateName, projectName);
 
 (function () {
   if (!templateList[templateName]) {
@@ -35,7 +34,6 @@ console.log(templateName, projectName);
 })();
 
 let url = templateList[templateName];
-console.log(url);
 
 console.log(chalk.green('\n Start generating... \n'));
 // 出现加载图标
