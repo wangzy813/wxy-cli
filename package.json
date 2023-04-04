@@ -1,14 +1,29 @@
 {
-  "name": "wxy-cli",
+  "name": "if-wxy-cli",
   "version": "1.0.0",
-  "description": "脚手架",
+  "description": "",
   "main": "index.js",
+  "bin": {
+    "wxy": "bin/wxy.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "cli"
-  ],
-  "author": "王珣亦",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.1.5",
+    "log-symbols": "^5.1.0",
+    "minimist": "^1.2.8",
+    "ora": "^6.3.0"
+  }
 }
