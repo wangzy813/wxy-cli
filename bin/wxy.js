@@ -1,11 +1,11 @@
 #! /usr/bin/env node
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
+// import { createRequire } from 'module';
+// const require = createRequire(import.meta.url);
 import { program } from 'commander';
 import download from 'download-git-repo';
-
-const json = require('../package.json')
+import json from '../package.json' assert { type: 'json' }
+// const json = require('../package.json')
 program.version(json.version, '-v, --version')
     .command('init <templateName> <projectName>')
     .action((templateName, projectName) => {
