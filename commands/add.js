@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const templateList = require('../template.json')
-import { showTable } from '../utils/showTable.js'
+import { showTable } from '../utils/utils.js'
 import symbols from 'log-symbols'
 import chalk from 'chalk'
 chalk.level = 1

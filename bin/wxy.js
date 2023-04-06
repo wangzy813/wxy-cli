@@ -16,7 +16,7 @@ program
   })
 
 program
-  .command('delete')
+  .command('del')
   .description('delete a template')
   .action(() => {
     import('../commands/delete.js')
